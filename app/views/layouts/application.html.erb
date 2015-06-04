@@ -3,11 +3,16 @@
 <head>
   <title>RailsGoogleMaps</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  <!-- Add the jQuery library from CDN -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
   <!-- Add the google maps library -->
   <script src="//maps.googleapis.com/maps/api/js"></script>
+
+  <!-- Add JS from the asset pipeline afterwards -->
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
 </head>
 <body>
