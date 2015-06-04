@@ -10,5 +10,7 @@ Map.create([
 	{name: 'White House', address: '1600 Pennsylvania Avenue Northwest, Washington, DC 20500'},
 	{name: 'Department of Defense', address: '1000 Defense Pentagon Washington, DC 20301-1000'},
 	{name: 'Best burgers in LA', address: '333 North Verdugo Road, Glendale, CA 91206'},
-	{name: 'GA', address: '1520 2nd St., Santa Monica, CA'}
+	{name: 'GA', address: '1520 2nd St., Santa Monica, CA'},
+	{name: 'London', address: 'London, UK'},
+	{name: 'Poland', address: 'Poland'}
 ])
