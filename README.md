@@ -19,17 +19,8 @@ rake db:seed
 
 And then `rails s` in a new terminal tab
 
-### Add the Map Template
+### View the Glorious Diff
 
-`views/layouts/application.html.erb`
+Did you know GitHub has an awesome commit comparison feature? Check out the glorious diff that shows every change I made on top of the base rails framework:
 
-```erb
-  <!-- Add the google maps library -->
-  <script src="//maps.googleapis.com/maps/api/js"></script>
-```
-
-Also modified the following views:
-
- * `views/maps/show.html.erb`
- * `views/maps/index.html.erb`
-
+https://github.com/kenaniah/rails-google-maps/compare/e8dc23ddc0135de2dc2ae053e451241f2f08af4f...master
