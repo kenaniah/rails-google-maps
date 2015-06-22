@@ -1,6 +1,6 @@
 # Google Maps API in Rails
 
-![Build Status](https://travis-ci.org/kenaniah/rails-google-maps.svg?branch=master)
+[![Build Status](https://travis-ci.org/kenaniah/rails-google-maps.svg?branch=master)](https://travis-ci.org/kenaniah/rails-google-maps)
 
 A basic Rails project to demonstrate how Google Maps can be used.
 
