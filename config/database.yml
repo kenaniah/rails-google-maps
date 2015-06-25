@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: maps_production
-  username: maps
-  password: <%= ENV['MAPS_DATABASE_PASSWORD'] %>
+  username: rails
+  password: <%= ENV['APP_DATABASE_PASSWORD'] %>
