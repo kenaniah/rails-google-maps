@@ -1,6 +1,10 @@
 class MapsController < ApplicationController
   before_action :set_map, only: [:show, :edit, :update, :destroy]
 
+  def redir
+    redirect_to maps_url
+  end
+
   # GET /maps
   # GET /maps.json
   def index
